@@ -1,4 +1,5 @@
 ---
+title: 首页
 home: true
 heroImage: /logo.png
 heroAlt: Logo image

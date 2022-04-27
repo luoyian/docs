@@ -38,8 +38,19 @@ export default defineConfig({
     nextLinks: true,
     prevLinks: true,
     logo: '/logo.png',
+    nav: [
+      {
+        text: '首页',
+        link: '/'
+      },
+      {
+        text: '简介',
+        link: '/guide/'
+      }
+    ],
     repo: 'tlyboy/docs',
-    repoLabel: 'GitHub'
+    repoLabel: 'GitHub',
+    sidebar: 'auto'
   },
   markdown: {
     lineNumbers: true
