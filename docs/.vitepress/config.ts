@@ -44,7 +44,7 @@ export default defineConfig({
         link: '/'
       },
       {
-        text: '简介',
+        text: '文档简介',
         link: '/guide/'
       }
     ],
