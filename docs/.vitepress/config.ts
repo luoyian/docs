@@ -54,6 +54,10 @@ export default defineConfig({
       {
         text: '文档简介',
         link: '/guide/'
+      },
+      {
+        text: '学习路线',
+        link: 'https://www.bilibili.com/read/cv14612853?spm_id_from=333.999.0.0'
       }
     ],
     repo: 'tlyboy/docs',
