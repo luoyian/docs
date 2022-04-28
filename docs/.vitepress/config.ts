@@ -1,9 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  lang: 'zh-CN',
   base: '/docs/',
-  title: 'Guany 的文档',
   description: 'Guany 的文档',
   head: [
     [
@@ -28,7 +26,17 @@ export default defineConfig({
       }
     ]
   ],
+  lang: 'zh-CN',
+  lastUpdated: true,
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
+    algolia: {
+      apiKey: '52dcb219269358d38f9ff9c076401746',
+      indexName: 'tlyboy',
+      appId: 'J78J84FFDK'
+    },
     docsBranch: 'main',
     docsRepo: 'tlyboy/docs',
     docsDir: 'docs',
@@ -52,7 +60,5 @@ export default defineConfig({
     repoLabel: 'GitHub',
     sidebar: 'auto'
   },
-  markdown: {
-    lineNumbers: true
-  }
+  title: 'Guany 的文档'
 })
