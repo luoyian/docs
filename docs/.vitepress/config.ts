@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/docs/',
-  description: '这是我的新文档。😁',
+  description: '📄 这是我的新文档。',
   head: [
     [
       'meta',
