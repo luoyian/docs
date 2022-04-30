@@ -1,6 +1,5 @@
 ---
 title: 文档简介
-sidebar: false
 ---
 
 ## 简介
