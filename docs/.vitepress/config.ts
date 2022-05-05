@@ -62,9 +62,7 @@ export default defineConfig({
     ],
     repo: 'tlyboy/docs',
     repoLabel: 'GitHub',
-    sidebar: {
-      '/guide/': [{ text: '文档简介', link: '/guide/' }]
-    }
+    sidebar: {}
   },
   title: 'Guany 的文档'
 })
