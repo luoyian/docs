@@ -4,4 +4,6 @@
     'Helvetica Neue', sans-serif;
   --font-family-mono: 'CaskaydiaCove Nerd Font', 'Noto Sans SC', source-code-pro,
     Menlo, Monaco, Consolas, 'Courier New', monospace;
+  --c-brand: #3498db;
+  --c-brand-light: #48a2df;
 }
