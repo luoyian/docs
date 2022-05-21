@@ -33,9 +33,9 @@ export default defineConfig({
   },
   themeConfig: {
     algolia: {
-      apiKey: '52dcb219269358d38f9ff9c076401746',
-      indexName: 'tlyboy',
-      appId: 'J78J84FFDK'
+      apiKey: 'c930e272ac2dd785d6b65def21775c05',
+      indexName: 'Crawler Netlify - guany-docs',
+      appId: 'NURZVI608I'
     },
     docsBranch: 'main',
     docsRepo: 'tlyboy/docs',
