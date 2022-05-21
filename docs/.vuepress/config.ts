@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vuepress/config'
 
 export default defineConfig({
   description: '这是我的新文档',
@@ -26,21 +26,24 @@ export default defineConfig({
       }
     ]
   ],
-  lang: 'zh-CN',
-  lastUpdated: true,
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      title: 'Guany 的文档',
+      description: '这是我的新文档'
+    }
+  },
   markdown: {
     lineNumbers: true
   },
   themeConfig: {
     docsBranch: 'main',
-    docsRepo: 'tlyboy/docs',
     docsDir: 'docs',
-    editLinks: true,
+    docsRepo: 'tlyboy/docs',
     editLinkText: '在 GitHub 上编辑此页',
+    editLinks: true,
     lastUpdated: '上次更新',
-    nextLinks: true,
-    prevLinks: true,
-    logo: '/logo.png',
+    logo: '/assets/img/logo.png',
     nav: [
       {
         text: '首页',
@@ -56,8 +59,9 @@ export default defineConfig({
       }
     ],
     repo: 'tlyboy/docs',
-    repoLabel: 'GitHub',
-    sidebar: 'auto'
+    sidebar: 'auto',
+    sidebarDepth: 2,
+    smoothScroll: true
   },
   title: 'Guany 的文档'
 })
