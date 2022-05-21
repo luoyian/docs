@@ -32,11 +32,6 @@ export default defineConfig({
     lineNumbers: true
   },
   themeConfig: {
-    algolia: {
-      apiKey: 'c930e272ac2dd785d6b65def21775c05',
-      indexName: 'Crawler Netlify - guany-docs',
-      appId: 'NURZVI608I'
-    },
     docsBranch: 'main',
     docsRepo: 'tlyboy/docs',
     docsDir: 'docs',
