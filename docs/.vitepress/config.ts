@@ -34,7 +34,7 @@ export default defineConfig({
   themeConfig: {
     algolia: {
       apiKey: 'XZ7GZTQ4V5',
-      indexName: 'netlify_4e2c0a0f-413e-4fd7-ba46-0de60b4158d8_main_all',
+      indexName: 'docs',
       appId: 'b7c915394735dec7b9c0bc1cf53d25ae'
     },
     docsBranch: 'main',
