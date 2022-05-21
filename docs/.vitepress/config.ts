@@ -32,6 +32,11 @@ export default defineConfig({
     lineNumbers: true
   },
   themeConfig: {
+    algolia: {
+      apiKey: 'XZ7GZTQ4V5',
+      indexName: 'docs',
+      appId: 'b7c915394735dec7b9c0bc1cf53d25ae'
+    },
     docsBranch: 'main',
     docsRepo: 'tlyboy/docs',
     docsDir: 'docs',
