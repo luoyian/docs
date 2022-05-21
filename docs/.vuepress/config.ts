@@ -1,6 +1,7 @@
 import { defineConfig } from 'vuepress/config'
 
 export default defineConfig({
+  title: 'Guany 的文档',
   description: '这是我的新文档',
   head: [
     [
@@ -33,16 +34,7 @@ export default defineConfig({
       description: '这是我的新文档'
     }
   },
-  markdown: {
-    lineNumbers: true
-  },
   themeConfig: {
-    docsBranch: 'main',
-    docsDir: 'docs',
-    docsRepo: 'tlyboy/docs',
-    editLinkText: '在 GitHub 上编辑此页',
-    editLinks: true,
-    lastUpdated: '上次更新',
     logo: '/assets/img/logo.png',
     nav: [
       {
@@ -58,10 +50,19 @@ export default defineConfig({
         link: 'https://www.bilibili.com/read/cv14612853?spm_id_from=333.999.0.0'
       }
     ],
-    repo: 'tlyboy/docs',
     sidebar: 'auto',
     sidebarDepth: 2,
+    lastUpdated: '上次更新',
+    repo: 'tlyboy/docs',
+    docsRepo: 'tlyboy/docs',
+    docsDir: 'docs',
+    docsBranch: 'main',
+    editLinks: true,
+    editLinkText: '在 GitHub 上编辑此页',
     smoothScroll: true
   },
-  title: 'Guany 的文档'
+  plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom'],
+  markdown: {
+    lineNumbers: true
+  }
 })
