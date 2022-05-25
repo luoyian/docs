@@ -2,7 +2,7 @@
   "name": "docs",
   "version": "1.0.0",
   "private": true,
-  "description": "Guany 的文档",
+  "description": "📄 Guany 的文档",
   "license": "MIT",
   "author": "Guany",
   "scripts": {
