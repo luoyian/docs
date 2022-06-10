@@ -15,7 +15,7 @@ export default defineConfig({
       'link',
       {
         rel: 'shortcut icon',
-        href: '/favicon.ico',
+        href: 'https://cdn.tlyboy.com/favicon.ico',
         type: 'image/x-icon'
       }
     ],
@@ -23,7 +23,7 @@ export default defineConfig({
       'link',
       {
         rel: 'apple-touch-icon',
-        href: '/favicon.png'
+        href: 'https://cdn.tlyboy.com/favicon.png'
       }
     ]
   ],
@@ -35,7 +35,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    logo: '/assets/img/logo.png',
+    logo: 'https://cdn.tlyboy.com/img/logo.png',
     nav: [
       {
         text: '首页',
