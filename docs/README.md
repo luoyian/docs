@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://cdn.tlyboy.com/img/hero.png
+heroImage: https://cdn.tlyboy.com/images/hero.png
 heroText: Guany 的文档
 tagline: 作者：tlyboy
 actionText: 文档简介 →

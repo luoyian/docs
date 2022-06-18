@@ -35,7 +35,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    logo: 'https://cdn.tlyboy.com/img/logo.png',
+    logo: 'https://cdn.tlyboy.com/images/logo.png',
     nav: [
       {
         text: '首页',
