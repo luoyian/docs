@@ -1,6 +1,4 @@
-import { defineConfig } from 'vuepress/config'
-
-export default defineConfig({
+module.exports = {
   title: 'Guany 的文档',
   description: '这是我的新文档',
   head: [
@@ -53,4 +51,4 @@ export default defineConfig({
   markdown: {
     lineNumbers: true
   }
-})
+}
