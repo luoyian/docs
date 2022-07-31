@@ -13,7 +13,7 @@ module.exports = {
       'link',
       {
         rel: 'icon',
-        href: 'https://cdn.tlyboy.com/favicon.ico'
+        href: '/favicon.ico'
       }
     ]
   ],
@@ -25,7 +25,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    logo: 'https://cdn.tlyboy.com/img/logo.png',
+    logo: '/assets/img/logo.png',
     nav: [
       {
         text: '首页',
