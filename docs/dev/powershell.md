@@ -14,7 +14,7 @@ Windows Terminal 可以从 Microsoft Store（微软商店）下载。
 
 gsudo 可以让你在 powershell 或其他 Windows 终端上使用 sudo 命令来提升权限。
 
-::: warning 注意
+::: tip 提示
 
 这个不仅可用于 PowerShell
 
@@ -27,8 +27,6 @@ gsudo 可以让你在 powershell 或其他 Windows 终端上使用 sudo 命令�
 ```powershell
 winget install gerardog.gsudo
 ```
-
-相关链接：[gerardog/gsudo: A Sudo for Windows - run elevated without spawning a new Console Host Window (github.com)](https://github.com/gerardog/gsudo)
 
 ### PSReadLine
 
@@ -43,8 +41,6 @@ Set-PSReadLineKeyHandler -Chord "Ctrl+f" -Function ForwardWord
 这能够使你的 powershell 提供历史记录的提示、类似 zsh 的菜单提示以及可以使用 Ctrl + f 来提示一个单词。
 
 ![image-20220320105802477](../.vuepress/images/image-20220320105802477.png)
-
-相关链接：[关于 PSReadLine - PowerShell | Microsoft Docs](https://docs.microsoft.com/zh-cn/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2)
 
 ### posh-git
 
@@ -61,8 +57,6 @@ Install-Module posh-git -Scope CurrentUser
 ```powershell
 Import-Module posh-git
 ```
-
-相关链接：[dahlbyk/posh-git: A PowerShell environment for Git (github.com)](https://github.com/dahlbyk/posh-git/)
 
 ### git-aliases
 
@@ -95,8 +89,6 @@ Import-Module git-aliases -DisableNameChecking
 | gp    | git push       |
 | gra   | git remote add |
 
-相关链接：[ohmyzsh/plugins/git at master · ohmyzsh/ohmyzsh (github.com)](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)
-
 ### oh-my-posh
 
 美化 powershell 的库。
@@ -121,8 +113,6 @@ winget install JanDeDobbeleer.OhMyPosh
 oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\robbyrussel.omp.json | Invoke-Expression
 ```
 
-相关链接：[Home | Oh My Posh](https://ohmyposh.dev/)
-
 ### Terminal-Icons
 
 一些文件图标。
@@ -146,8 +136,6 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 ```powershell
 Import-Module -Name Terminal-Icons
 ```
-
-相关链接：[devblackops/Terminal-Icons: A PowerShell module to show file and folder icons in the terminal (github.com)](https://github.com/devblackops/Terminal-Icons)
 
 ### 一次性打包带走
 
