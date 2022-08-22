@@ -8,7 +8,7 @@ Windows Terminal 可以从 Microsoft Store（微软商店）下载。
 
 :::
 
-## 安装和配置
+## 安装和配置模块
 
 ### gsudo
 

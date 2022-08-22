@@ -4,7 +4,20 @@
   <img src="../.vuepress/images/image-20220320120513792.png" alt="image-20220320120513792">
 </p>
 
-## 使用说明
+## 我的配置
+
+### profiles.defaults
+
+```json
+{
+  "bellStyle": "none",
+  "colorScheme": "Material",
+  "font": {
+    "face": "CaskaydiaCove Nerd Font"
+  },
+  "useAcrylic": true
+}
+```
 
 ### profiles.list
 
@@ -34,6 +47,18 @@
     "hidden": false,
     "name": "PowerShell",
     "source": "Windows.Terminal.PowershellCore"
+  },
+  {
+    "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+    "hidden": false,
+    "name": "Git Bash",
+    "source": "Git"
+  },
+  {
+    "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "hidden": false,
+    "name": "Ubuntu",
+    "source": "Windows.Terminal.Wsl"
   }
 ]
 ```
@@ -63,18 +88,5 @@
   "selectionBackground": "#FFFFFF",
   "white": "#FFFFFF",
   "yellow": "#FFCB6B"
-}
-```
-
-### profiles.defaults
-
-```json
-{
-  "bellStyle": "none",
-  "colorScheme": "Material",
-  "font": {
-    "face": "CaskaydiaCove Nerd Font"
-  },
-  "useAcrylic": true
 }
 ```

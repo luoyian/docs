@@ -37,11 +37,11 @@ module.exports = {
       },
       {
         text: '开发环境',
-        link: '/dev/ubuntu'
+        link: '/dev/wt'
       }
     ],
     sidebar: {
-      '/dev/': ['wsl2', 'ubuntu', 'docker', 'powershell', 'vscode', 'git', 'wt']
+      '/dev/': ['wt', 'wsl2', 'ubuntu', 'docker', 'powershell', 'vscode', 'git', 'ssh']
     },
     sidebarDepth: 2,
     lastUpdated: '上次更新',
