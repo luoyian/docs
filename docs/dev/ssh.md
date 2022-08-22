@@ -5,7 +5,7 @@
 ## 生成新的 SSH 密钥
 
 ```bash
-ssh-keygen -t ed25519 # ssh-keygen -t rsa -b 4096
+ssh-keygen -t ed25519
 ```
 
 ## 测试 SSH 连接
