@@ -34,9 +34,15 @@ module.exports = {
       {
         text: '文档简介',
         link: '/guide/'
+      },
+      {
+        text: '开发环境',
+        link: '/dev/wsl2'
       }
     ],
-    sidebar: 'auto',
+    sidebar: {
+      '/dev/': ['wsl2', 'docker', 'powershell', 'vscode', 'git', 'wt']
+    },
     sidebarDepth: 2,
     lastUpdated: '上次更新',
     repo: 'tlyboy/docs',
