@@ -2,7 +2,7 @@
 home: true
 heroImage: /assets/img/hero.png
 heroText: Guany 的文档
-tagline: 作者：tlyboy
+tagline: null
 actionText: 文档简介 →
 actionLink: /guide/
 features:
