@@ -28,17 +28,23 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
-  "editor.fontFamily": "'CaskaydiaCove Nerd Font', 'Source Han Sans SC VF', Consolas, monaco, monospace",
+  "editor.fontFamily": "'CaskaydiaCove Nerd Font', 'Source Han Sans SC VF', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "explorer.compactFolders": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
-    "*.json": "jsonc"
+    "*.json": "jsonc",
+    ".nirc": "ini",
+    ".nyprmrc": "jsonc"
   },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
@@ -58,6 +64,7 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "none",
   "security.workspace.trust.enabled": false,
+  "tailwindCSS.emmetCompletions": true,
   "typescript.suggest.paths": false,
   "workbench.colorTheme": "Material Theme",
   "workbench.iconTheme": "material-icon-theme",

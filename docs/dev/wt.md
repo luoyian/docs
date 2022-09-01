@@ -15,6 +15,7 @@
   "font": {
     "face": "CaskaydiaCove Nerd Font"
   },
+  "opacity": 50,
   "useAcrylic": true
 }
 ```
@@ -42,7 +43,7 @@
     "source": "Windows.Terminal.Azure"
   },
   {
-    "commandline": "pwsh.exe -nol",
+    "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoLogo",
     "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "hidden": false,
     "name": "PowerShell",
