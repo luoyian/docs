@@ -169,4 +169,5 @@ Import-Module -Name Terminal-Icons
 
 ```powershell
 Remove-Alias -Name ni -Force
+Set-Alias -Name la -Value ls
 ```
