@@ -104,7 +104,7 @@ Import-Module git-aliases -DisableNameChecking
 `安装`：
 
 ```powershell
-winget install JanDeDobbeleer.OhMyPosh
+winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
 `配置`：
@@ -145,7 +145,7 @@ Import-Module -Name Terminal-Icons
 winget install gerardog.gsudo
 Install-Module posh-git -Scope CurrentUser
 Install-Module git-aliases -Scope CurrentUser -AllowClobber
-winget install JanDeDobbeleer.OhMyPosh
+winget install JanDeDobbeleer.OhMyPosh -s winget
 Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
 
