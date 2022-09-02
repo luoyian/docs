@@ -65,6 +65,7 @@
   "prettier.trailingComma": "none",
   "security.workspace.trust.enabled": false,
   "tailwindCSS.emmetCompletions": true,
+  "terminal.integrated.smoothScrolling": true,
   "typescript.suggest.paths": false,
   "workbench.colorTheme": "Material Theme",
   "workbench.iconTheme": "material-icon-theme",
