@@ -22,7 +22,7 @@ gsudo 可以让你在 powershell 或其他 Windows 终端上使用 sudo 命令�
 
 ![image-20220320105333304](../.vuepress/images/image-20220320105333304.png)
 
-`安装`：
+#### 安装
 
 ```powershell
 winget install gerardog.gsudo
@@ -30,7 +30,7 @@ winget install gerardog.gsudo
 
 ### PSReadLine
 
-这是我的 PSReadLine 配置：
+这是我的 PSReadLine #### 配置
 
 ```powershell
 Set-PSReadLineOption -PredictionSource History
@@ -46,13 +46,13 @@ Set-PSReadLineKeyHandler -Chord "Ctrl+f" -Function ForwardWord
 
 这是一个 git 的 powershell 库，能够提供一些 git 的提示。
 
-`安装`：
+#### 安装
 
 ```powershell
 Install-Module posh-git -Scope CurrentUser
 ```
 
-`配置`：
+#### 配置
 
 ```powershell
 Import-Module posh-git
@@ -64,13 +64,13 @@ Import-Module posh-git
 
 这是一个类似于 ohmyzsh 的 git 插件。
 
-`安装`：
+#### 安装
 
 ```powershell
 Install-Module git-aliases -Scope CurrentUser -AllowClobber
 ```
 
-`配置`：
+#### 配置
 
 ```powershell
 Import-Module git-aliases -DisableNameChecking
@@ -101,13 +101,13 @@ Import-Module git-aliases -DisableNameChecking
 
 推荐使用我的版本和配置，效果图你已经看到过了！（从上往下看的话。🐶）
 
-`安装`：
+#### 安装
 
 ```powershell
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
-`配置`：
+#### 配置
 
 ```powershell
 oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\robbyrussel.omp.json | Invoke-Expression
@@ -125,13 +125,13 @@ oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\robbyrussel.omp.json | Invok
 
 ![image-20220320112923710](../.vuepress/images/image-20220320112923710.png)
 
-`安装`：
+#### 安装
 
 ```powershell
 Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
 
-`配置`：
+#### 配置
 
 ```powershell
 Import-Module -Name Terminal-Icons
@@ -139,7 +139,7 @@ Import-Module -Name Terminal-Icons
 
 ### 一次性打包带走
 
-`安装`：
+#### 安装
 
 ```powershell
 winget install gerardog.gsudo
@@ -149,7 +149,7 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
 
-`配置`：
+#### 配置
 
 ```powershell
 code $PROFILE
@@ -165,7 +165,7 @@ Import-Module git-aliases -DisableNameChecking
 Import-Module -Name Terminal-Icons
 ```
 
-`其他`：
+#### 其他
 
 ```powershell
 Remove-Alias -Name ni -Force
