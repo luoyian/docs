@@ -30,7 +30,7 @@ winget install gerardog.gsudo
 
 ### PSReadLine
 
-这是我的 PSReadLine #### 配置
+这是我的 PSReadLine 配置：
 
 ```powershell
 Set-PSReadLineOption -PredictionSource History
