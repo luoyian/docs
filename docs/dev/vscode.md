@@ -18,9 +18,6 @@
   "[toml]": {
     "editor.defaultFormatter": "bodil.prettier-toml"
   },
-  "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
-  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -38,6 +35,7 @@
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
   "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
   "explorer.compactFolders": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
@@ -47,6 +45,12 @@
   },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": false,
+    "yaml": false
+  },
   "github.gitProtocol": "ssh",
   "javascript.suggest.paths": false,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -66,7 +70,6 @@
   "tailwindCSS.emmetCompletions": true,
   "terminal.integrated.smoothScrolling": true,
   "typescript.suggest.paths": false,
-  "vetur.ignoreProjectWarning": true,
   "workbench.colorTheme": "Material Theme",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
