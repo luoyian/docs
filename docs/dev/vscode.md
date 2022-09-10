@@ -18,14 +18,15 @@
   "[toml]": {
     "editor.defaultFormatter": "bodil.prettier-toml"
   },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
-  "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
@@ -39,9 +40,7 @@
   "explorer.compactFolders": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
-    "*.json": "jsonc",
-    ".nirc": "ini",
-    ".nyprmrc": "jsonc"
+    "*.json": "jsonc"
   },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
@@ -70,6 +69,7 @@
   "tailwindCSS.emmetCompletions": true,
   "terminal.integrated.smoothScrolling": true,
   "typescript.suggest.paths": false,
+  "vetur.ignoreProjectWarning": true,
   "workbench.colorTheme": "Material Theme",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
