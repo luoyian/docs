@@ -25,7 +25,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    logo: '/assets/img/logo.png',
+    logo: '/assets/img/logo.webp',
     nav: [
       {
         text: '首页',
