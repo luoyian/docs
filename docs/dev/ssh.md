@@ -16,7 +16,7 @@ ssh -T git@github.com
 
 ## 在 HTTPS 端口使用 SSH
 
-```config
+```text
 Host github.com
   HostName ssh.github.com
   Port 443
@@ -25,6 +25,6 @@ Host github.com
 
 ## 配置代理
 
-```cofig
+```text
 ProxyCommand "C:\Program Files\Git\mingw64\bin\connect.exe" -H 127.0.0.1:7890 %h %p
 ```

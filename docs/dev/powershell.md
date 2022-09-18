@@ -20,7 +20,7 @@ gsudo 可以让你在 powershell 或其他 Windows 终端上使用 sudo 命令�
 
 :::
 
-![image-20220320105333304](../.vuepress/images/image-20220320105333304.png)
+![image-20220320105333304](/assets/img/image-20220320105333304.webp)
 
 #### 安装
 
@@ -40,7 +40,7 @@ Set-PSReadLineKeyHandler -Chord "Ctrl+f" -Function ForwardWord
 
 这能够使你的 powershell 提供历史记录的提示、类似 zsh 的菜单提示以及可以使用 Ctrl + f 来提示一个单词。
 
-![image-20220320105802477](../.vuepress/images/image-20220320105802477.png)
+![image-20220320105802477](/assets/img/image-20220320105802477.webp)
 
 ### posh-git
 
@@ -123,7 +123,7 @@ oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\robbyrussel.omp.json | Invok
 
 :::
 
-![image-20220320112923710](../.vuepress/images/image-20220320112923710.png)
+![image-20220320112923710](/assets/img/image-20220320112923710.webp)
 
 #### 安装
 

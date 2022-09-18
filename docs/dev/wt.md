@@ -1,7 +1,7 @@
 # Windows Terminal
 
 <p align="center">
-  <img src="../.vuepress/images/image-20220320120513792.png" alt="image-20220320120513792">
+  <img src="/assets/img/image-20220320120513792.webp" alt="image-20220320120513792">
 </p>
 
 ## 我的配置
