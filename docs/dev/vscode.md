@@ -8,6 +8,10 @@
 
 ```json
 {
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 4
+  },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.tabSize": 4
@@ -17,9 +21,6 @@
   },
   "[toml]": {
     "editor.defaultFormatter": "bodil.prettier-toml"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
