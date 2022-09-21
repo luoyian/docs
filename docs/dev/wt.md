@@ -13,7 +13,7 @@
   "bellStyle": "none",
   "colorScheme": "Material",
   "font": {
-    "face": "CaskaydiaCove Nerd Font"
+    "face": "CaskaydiaCove NF"
   },
   "opacity": 50,
   "useAcrylic": true

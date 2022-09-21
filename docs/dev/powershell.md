@@ -95,7 +95,7 @@ Import-Module git-aliases -DisableNameChecking
 
 ::: warning 注意
 
-需要使用 [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) 字体，这里我推荐使用 [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip) 的 CaskaydiaCove Nerd Font
+需要使用 [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) 字体，这里我推荐使用 [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip) 的 CaskaydiaCove NF
 
 :::
 
@@ -119,7 +119,7 @@ oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\robbyrussel.omp.json | Invok
 
 ::: warning 注意
 
-需要使用 [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) 字体，这里我推荐使用 [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip) 的 CaskaydiaCove Nerd Font
+需要使用 [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) 字体，这里我推荐使用 [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip) 的 CaskaydiaCove NF
 
 :::
 
@@ -156,12 +156,16 @@ code $PROFILE
 ```
 
 ```powershell
+oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\robbyrussel.omp.json | Invoke-Expression
+
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Set-PSReadLineKeyHandler -Chord "Ctrl+f" -Function ForwardWord
+
 Import-Module posh-git
-oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\robbyrussel.omp.json | Invoke-Expression
+
 Import-Module git-aliases -DisableNameChecking
+
 Import-Module -Name Terminal-Icons
 ```
 
@@ -169,5 +173,6 @@ Import-Module -Name Terminal-Icons
 
 ```powershell
 Remove-Alias -Name ni -Force
+
 Set-Alias -Name la -Value ls
 ```
