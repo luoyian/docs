@@ -1,7 +1,7 @@
 # Windows Terminal
 
 <p align="center">
-  <img src="/assets/img/image-20220320120513792.webp" alt="image-20220320120513792">
+  <img src="/assets/img/image-20220925191320085.webp" alt="image-20220925191320085">
 </p>
 
 ## 我的配置
@@ -12,9 +12,6 @@
 {
   "bellStyle": "none",
   "colorScheme": "Material",
-  "font": {
-    "face": "CaskaydiaCove NF"
-  },
   "opacity": 50,
   "useAcrylic": true
 }

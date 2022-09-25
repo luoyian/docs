@@ -10,6 +10,24 @@ Windows Terminal 可以从 Microsoft Store（微软商店）下载。
 
 ## 安装和配置模块
 
+### oh-my-posh
+
+美化 powershell 的库。
+
+![image-20220925191320085](/assets/img/image-20220925191320085.webp)
+
+#### 安装
+
+```powershell
+winget install JanDeDobbeleer.OhMyPosh -s winget
+```
+
+#### 配置
+
+```powershell
+oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\robbyrussel.omp.json | Invoke-Expression
+```
+
 ### gsudo
 
 gsudo 可以让你在 powershell 或其他 Windows 终端上使用 sudo 命令来提升权限。
@@ -20,7 +38,7 @@ gsudo 可以让你在 powershell 或其他 Windows 终端上使用 sudo 命令�
 
 :::
 
-![image-20220320105333304](/assets/img/image-20220320105333304.webp)
+![image-20220925191502667](/assets/img/image-20220925191502667.webp)
 
 #### 安装
 
@@ -40,7 +58,7 @@ Set-PSReadLineKeyHandler -Chord "Ctrl+f" -Function ForwardWord
 
 这能够使你的 powershell 提供历史记录的提示、类似 zsh 的菜单提示以及可以使用 Ctrl + f 来提示一个单词。
 
-![image-20220320105802477](/assets/img/image-20220320105802477.webp)
+![image-20220925192402252](/assets/img/image-20220925192402252.webp)
 
 ### posh-git
 
@@ -89,74 +107,25 @@ Import-Module git-aliases -DisableNameChecking
 | gp    | git push       |
 | gra   | git remote add |
 
-### oh-my-posh
+## 一次性打包带走
 
-美化 powershell 的库。
-
-::: warning 注意
-
-需要使用 [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) 字体，这里我推荐使用 [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip) 的 CaskaydiaCove NF
-
-:::
-
-推荐使用我的版本和配置，效果图你已经看到过了！（从上往下看的话。🐶）
-
-#### 安装
+### 安装
 
 ```powershell
 winget install JanDeDobbeleer.OhMyPosh -s winget
-```
-
-#### 配置
-
-```powershell
-oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\robbyrussel.omp.json | Invoke-Expression
-```
-
-### Terminal-Icons
-
-一些文件图标。
-
-::: warning 注意
-
-需要使用 [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) 字体，这里我推荐使用 [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip) 的 CaskaydiaCove NF
-
-:::
-
-![image-20220320112923710](/assets/img/image-20220320112923710.webp)
-
-#### 安装
-
-```powershell
-Install-Module -Name Terminal-Icons -Repository PSGallery
-```
-
-#### 配置
-
-```powershell
-Import-Module -Name Terminal-Icons
-```
-
-### 一次性打包带走
-
-#### 安装
-
-```powershell
 winget install gerardog.gsudo
 Install-Module posh-git -Scope CurrentUser
 Install-Module git-aliases -Scope CurrentUser -AllowClobber
-winget install JanDeDobbeleer.OhMyPosh -s winget
-Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
 
-#### 配置
+### 配置
 
 ```powershell
 code $PROFILE
 ```
 
 ```powershell
-oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\robbyrussel.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/robbyrussel.omp.json" | Invoke-Expression
 
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
@@ -165,14 +134,4 @@ Set-PSReadLineKeyHandler -Chord "Ctrl+f" -Function ForwardWord
 Import-Module posh-git
 
 Import-Module git-aliases -DisableNameChecking
-
-Import-Module -Name Terminal-Icons
-```
-
-#### 其他
-
-```powershell
-Remove-Alias -Name ni -Force
-
-Set-Alias -Name la -Value ls
 ```

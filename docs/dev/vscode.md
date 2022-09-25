@@ -41,14 +41,11 @@
   },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
-  "github.copilot.enable": {
-    "*": true,
-    "markdown": true,
-    "plaintext": false,
-    "yaml": false
-  },
   "github.gitProtocol": "ssh",
   "javascript.suggest.paths": false,
+  "less.compile": {
+    "out": "../css/"
+  },
   "liveServer.settings.donotShowInfoMsg": true,
   "markdown-preview-github-styles.colorTheme": "system",
   "path-intellisense.extensionOnImport": true,
