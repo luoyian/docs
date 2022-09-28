@@ -3,13 +3,6 @@ module.exports = {
   description: '这是我的新文档',
   head: [
     [
-      'meta',
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1.0, user-scalable=no'
-      }
-    ],
-    [
       'link',
       {
         rel: 'icon',
