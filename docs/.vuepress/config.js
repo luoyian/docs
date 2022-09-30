@@ -6,7 +6,7 @@ module.exports = {
       'link',
       {
         rel: 'icon',
-        href: '/favicon.ico'
+        href: '/favicon.svg'
       }
     ]
   ],
@@ -18,7 +18,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    logo: '/assets/img/logo.webp',
+    logo: '/assets/img/logo.svg',
     nav: [
       {
         text: '首页',

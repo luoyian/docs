@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /assets/img/hero.webp
+heroImage: /assets/img/hero.svg
 heroText: Guany 的文档
 tagline: null
 actionText: 文档简介 →
