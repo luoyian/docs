@@ -38,14 +38,15 @@
   "explorer.compactFolders": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
-    "*.json": "jsonc"
+    "*.json": "jsonc",
+    "*.svg": "html"
   },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "github.gitProtocol": "ssh",
   "javascript.suggest.paths": false,
   "less.compile": {
-    "out": "../css/"
+    "out": false
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "markdown-preview-github-styles.colorTheme": "system",
