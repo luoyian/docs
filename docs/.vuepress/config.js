@@ -37,6 +37,7 @@ module.exports = {
       '/dev/': ['wt', 'wsl2', 'ubuntu', 'docker', 'powershell', 'vscode', 'git', 'ssh']
     },
     sidebarDepth: 2,
+    activeHeaderLinks: false,
     lastUpdated: '上次更新',
     repo: 'tlyboy/docs',
     docsRepo: 'tlyboy/docs',
