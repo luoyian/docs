@@ -82,3 +82,11 @@
   "yellow": "#FFCB6B"
 }
 ```
+
+### useAcrylicInTabRow
+
+```json
+{
+  "useAcrylicInTabRow": true
+}
+```
