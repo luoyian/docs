@@ -27,7 +27,6 @@
   "editor.fontFamily": "Menlo, Monaco, Consolas, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.formatOnSave": true,
-  "editor.inlineSuggest.enabled": true,
   "editor.quickSuggestions": {
     "strings": true
   },
@@ -38,8 +37,7 @@
   "explorer.compactFolders": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
-    "*.json": "jsonc",
-    "*.svg": "html"
+    "*.json": "jsonc"
   },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
@@ -77,22 +75,11 @@
 
 ```json
 // 将键绑定放在此文件中以覆盖默认值
+// 将键绑定放在此文件中以覆盖默认值
 [
   {
-    "key": ".",
-    "command": ""
-  },
-  {
-    "key": "ctrl+alt+u",
-    "command": "editor.action.transformToUppercase"
-  },
-  {
-    "key": "ctrl+alt+t",
-    "command": "editor.action.transformToTitlecase"
-  },
-  {
-    "key": "ctrl+alt+l",
-    "command": "editor.action.transformToLowercase"
+    "command": "",
+    "key": "."
   }
 ]
 ```
