@@ -27,6 +27,7 @@
   "editor.fontFamily": "Menlo, Monaco, Consolas, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
   "editor.quickSuggestions": {
     "strings": true
   },
@@ -41,6 +42,12 @@
   },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": false,
+    "yaml": false
+  },
   "github.gitProtocol": "ssh",
   "javascript.suggest.paths": false,
   "less.compile": {
