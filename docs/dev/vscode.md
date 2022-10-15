@@ -49,18 +49,12 @@
     "yaml": false
   },
   "github.gitProtocol": "ssh",
-  "javascript.suggest.paths": false,
+  "githubPullRequests.createOnPublishBranch": "never",
   "less.compile": {
     "out": false
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "markdown-preview-github-styles.colorTheme": "system",
-  "path-intellisense.extensionOnImport": true,
-  "path-intellisense.mappings": {
-    "/": "${workspaceFolder}",
-    "@": "${workspaceFolder}/src"
-  },
-  "path-intellisense.showHiddenFiles": true,
   "prettier.arrowParens": "avoid",
   "prettier.printWidth": 120,
   "prettier.semi": false,
@@ -69,7 +63,6 @@
   "security.workspace.trust.enabled": false,
   "tailwindCSS.emmetCompletions": true,
   "terminal.integrated.smoothScrolling": true,
-  "typescript.suggest.paths": false,
   "vetur.ignoreProjectWarning": true,
   "workbench.colorTheme": "Material Theme",
   "workbench.iconTheme": "material-icon-theme",
