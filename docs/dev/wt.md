@@ -12,6 +12,9 @@
 {
   "bellStyle": "none",
   "colorScheme": "Material",
+  "font": {
+    "face": "Consolas"
+  },
   "opacity": 50,
   "useAcrylic": true
 }
