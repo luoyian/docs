@@ -49,7 +49,6 @@
     "yaml": false
   },
   "github.gitProtocol": "ssh",
-  "githubPullRequests.createOnPublishBranch": "never",
   "less.compile": {
     "out": false
   },
