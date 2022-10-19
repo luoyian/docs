@@ -70,16 +70,3 @@
   "workbench.startupEditor": "none"
 }
 ```
-
-### keybindings.json
-
-```json
-// 将键绑定放在此文件中以覆盖默认值
-// 将键绑定放在此文件中以覆盖默认值
-[
-  {
-    "command": "",
-    "key": "."
-  }
-]
-```
