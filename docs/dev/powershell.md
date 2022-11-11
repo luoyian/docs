@@ -1,6 +1,6 @@
 # PowerShell
 
-需要使用**最新**的 PowerShell，配合 Windows Terminal 体验更佳。
+需要使用 **最新** 的 PowerShell，配合 Windows Terminal 体验更佳。
 
 ::: tip 提示
 
