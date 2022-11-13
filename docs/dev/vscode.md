@@ -41,12 +41,6 @@
   },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
-  "github.copilot.enable": {
-    "*": true,
-    "markdown": true,
-    "plaintext": false,
-    "yaml": false
-  },
   "github.gitProtocol": "ssh",
   "less.compile": {
     "out": false
@@ -56,7 +50,6 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "security.workspace.trust.enabled": false,
-  "tailwindCSS.emmetCompletions": true,
   "terminal.integrated.smoothScrolling": true,
   "workbench.colorTheme": "Material Theme",
   "workbench.iconTheme": "material-icon-theme",
