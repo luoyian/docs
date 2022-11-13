@@ -8,6 +8,12 @@
 ssh-keygen -t ed25519
 ```
 
+## 查看 SSH 密钥
+
+```bash
+cat ~\.ssh\id_ed25519.pub
+```
+
 ## 测试 SSH 连接
 
 ```bash
@@ -18,9 +24,9 @@ ssh -T git@github.com
 
 ```text
 Host github.com
-  HostName ssh.github.com
-  Port 443
-  User git
+HostName ssh.github.com
+Port 443
+User git
 ```
 
 ## 配置代理
