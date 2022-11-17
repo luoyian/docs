@@ -26,7 +26,6 @@
   "editor.detectIndentation": false,
   "editor.fontSize": 16,
   "editor.formatOnSave": true,
-  "editor.inlineSuggest.enabled": true,
   "editor.quickSuggestions": {
     "strings": true
   },
@@ -51,7 +50,7 @@
   "prettier.singleQuote": true,
   "security.workspace.trust.enabled": false,
   "terminal.integrated.smoothScrolling": true,
-  "workbench.colorTheme": "Material Theme",
+  "workbench.colorTheme": "Vitesse Dark",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "none"
