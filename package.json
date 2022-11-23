@@ -2,18 +2,14 @@
   "name": "docs",
   "version": "1.0.0",
   "private": true,
-  "description": "Guany 的文档",
   "license": "MIT",
-  "author": "Guany",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "format": "prettier --write ."
+    "docs:build": "vuepress build docs"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-medium-zoom": "^1.9.7",
-    "prettier": "^2.7.1",
     "vuepress": "^1.9.7"
   }
 }
