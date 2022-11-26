@@ -50,7 +50,7 @@
   "prettier.singleQuote": true,
   "security.workspace.trust.enabled": false,
   "terminal.integrated.smoothScrolling": true,
-  "workbench.colorTheme": "Vitesse Dark",
+  "workbench.colorTheme": "Material Theme",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "none"
