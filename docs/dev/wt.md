@@ -13,7 +13,7 @@
   "bellStyle": "none",
   "colorScheme": "Material",
   "font": {
-    "face": "Consolas"
+    "face": "FiraCode Nerd Font"
   },
   "opacity": 50,
   "useAcrylic": true

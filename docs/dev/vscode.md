@@ -24,6 +24,8 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
+  "editor.fontFamily": "'FiraCode Nerd Font'",
+  "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.formatOnSave": true,
   "editor.quickSuggestions": {
@@ -41,13 +43,21 @@
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "github.gitProtocol": "ssh",
+  "javascript.suggest.paths": false,
   "less.compile": {
     "out": false
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "markdown-preview-github-styles.colorTheme": "system",
+  "path-intellisense.mappings": {
+    "/": "${workspaceFolder}",
+    "@": "${workspaceFolder}/src"
+  },
+  "path-intellisense.showHiddenFiles": true,
+  "prettier.arrowParens": "avoid",
   "prettier.semi": false,
   "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
   "security.workspace.trust.enabled": false,
   "terminal.integrated.smoothScrolling": true,
   "workbench.colorTheme": "Material Theme",
