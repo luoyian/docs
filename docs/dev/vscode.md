@@ -43,17 +43,11 @@
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "github.gitProtocol": "ssh",
-  "javascript.suggest.paths": false,
   "less.compile": {
     "out": false
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "markdown-preview-github-styles.colorTheme": "system",
-  "path-intellisense.mappings": {
-    "/": "${workspaceFolder}",
-    "@": "${workspaceFolder}/src"
-  },
-  "path-intellisense.showHiddenFiles": true,
   "prettier.arrowParens": "avoid",
   "prettier.semi": false,
   "prettier.singleQuote": true,
