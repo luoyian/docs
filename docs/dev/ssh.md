@@ -4,23 +4,23 @@
 
 ## 生成新的 SSH 密钥
 
-```bash
+```sh
 ssh-keygen -t ed25519
 ```
 
 ## 查看 SSH 密钥
 
-```bash
+```sh
 cat ~\.ssh\id_ed25519.pub
 ```
 
 ## 测试 SSH 连接
 
-```bash
+```sh
 ssh -T git@github.com
 ```
 
-## 在 HTTPS 端口使用 SSH
+## 配置 GitHub 在 HTTPS 端口使用 SSH
 
 ```text
 Host github.com

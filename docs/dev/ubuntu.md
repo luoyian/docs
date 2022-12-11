@@ -6,45 +6,45 @@
 
 备份配置文件
 
-```bash
+```sh
 sudo cp -a /etc/apt/sources.list /etc/apt/sources.list.bak
 ```
 
 阿里云公网镜像
 
-```bash
+```sh
 sudo sed -i "s@http://.*archive.ubuntu.com@http://mirrors.aliyun.com@g" /etc/apt/sources.list
 sudo sed -i "s@http://.*security.ubuntu.com@http://mirrors.aliyun.com@g" /etc/apt/sources.list
 ```
 
 阿里云内网镜像
 
-```bash
+```sh
 sudo sed -i "s@http://.*archive.ubuntu.com@http://mirrors.cloud.aliyuncs.com@g" /etc/apt/sources.list
 sudo sed -i "s@http://.*security.ubuntu.com@http://mirrors.cloud.aliyuncs.com@g" /etc/apt/sources.list
 ```
 
 更新索引
 
-```bash
+```sh
 sudo apt update
 ```
 
 ## 安装 zsh
 
-```bash
+```sh
 sudo apt install zsh
 ```
 
 ## 安装 ohmyzsh
 
-```bash
+```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ## 安装 ohmyzsh 插件
 
-```bash
+```sh
 cd ~/.oh-my-zsh/plugins
 gcl https://github.com/zsh-users/zsh-autosuggestions.git
 gcl https://github.com/zsh-users/zsh-syntax-highlighting.git
@@ -54,19 +54,19 @@ gcl https://github.com/zsh-users/zsh-syntax-highlighting.git
 
 编辑 .zshrc
 
-```bash
+```sh
 vim ~/.zshrc
 ```
 
 去掉 # 注释，启用第 35 行内容
 
-```bash
+```sh
 DISABLE_MAGIC_FUNCTIONS="true"
 ```
 
 配置插件
 
-```bash
+```sh
 plugins=(
   git
   sudo
@@ -78,6 +78,6 @@ plugins=(
 
 最后执行
 
-```bash
+```sh
 source ~/.zshrc
 ```
