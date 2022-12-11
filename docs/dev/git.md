@@ -21,7 +21,7 @@ git config --global core.autocrlf false
 git config --global init.defaultBranch main
 ```
 
-## 配置 GitHub 代理
+## 配置代理
 
 ```sh
 git config --global http.proxy socks5:://127.0.0.1:7890/
