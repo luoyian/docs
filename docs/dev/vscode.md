@@ -28,6 +28,7 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.formatOnSave": true,
+  "editor.parameterHints.enabled": false,
   "editor.quickSuggestions": {
     "strings": true
   },
@@ -53,6 +54,8 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "none",
   "security.workspace.trust.enabled": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.smoothScrolling": true,
   "workbench.colorTheme": "Material Theme",
   "workbench.iconTheme": "material-icon-theme",
