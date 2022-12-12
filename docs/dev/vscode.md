@@ -44,11 +44,17 @@
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "github.gitProtocol": "ssh",
+  "javascript.suggest.paths": false,
   "less.compile": {
     "out": false
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "markdown-preview-github-styles.colorTheme": "system",
+  "path-intellisense.mappings": {
+    "/": "${workspaceFolder}",
+    "@": "${workspaceFolder}/src"
+  },
+  "path-intellisense.showHiddenFiles": true,
   "prettier.arrowParens": "avoid",
   "prettier.semi": false,
   "prettier.singleQuote": true,
@@ -57,9 +63,24 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.smoothScrolling": true,
+  "typescript.suggest.paths": false,
+  "vetur.ignoreProjectWarning": true,
+  "volar.autoWrapParentheses": false,
   "workbench.colorTheme": "Material Theme",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "none"
 }
+```
+
+### keybindings.json
+
+```json
+// 将键绑定放在此文件中以覆盖默认值
+[
+  {
+    "key": ".",
+    "command": ""
+  }
+]
 ```
